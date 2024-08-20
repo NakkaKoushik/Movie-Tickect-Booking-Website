@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Movie</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select a Movie</h2>
+        <form id="movieForm">
+            <div class="form-group">
+                <label for="movie">Choose a movie:</label>
+                <select id="movie" name="movie" required>
+                    <option value="" disabled selected>Select your movie</option>
+                    <option value="movie1">Kalki</option>
+                    <option value="movie2">Indian 2</option>
+                    <option value="movie3">Sarfira </option>
+                    <option value="movie4">Bad Newz</option>
+                </select>
+            </div>
+            <div id="moviePoster" class="movie-poster">
+                <img id="movieImage" src="" alt="Movie Poster" style="display:none;">
+            </div>
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+  
